@@ -13,7 +13,7 @@ initialize(elems=nil, &block)
 ```
 
 initialize takes two optionals parameters:
-- elems that you can store in queue, it could be one element or an array
+- elems that you can store in queue, it must be an array
 - a lambda which will be use to sort the queue. By default, it sort by descendant order like this:
 `lambda { |a,b| a >= b }`
 
