@@ -1,6 +1,6 @@
 require 'thread'
 
-class th_prim_queue
+class Th_prim_queue
 
   def initialize(elems=nil, &block)
     @mtx = Mutex.new
